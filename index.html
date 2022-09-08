@@ -1,10 +1,71 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <title>Assignment</title>
+  </head>
 
+<body>
+  <aside class="bg-light">
+    <nav class="d-flex flex-column h-100">
+    <h1><a href="#" class="logo mb-3">ANSWER</a></h1>
+    <ul class="nav flex-column fw-bold">
+      <li class="nav-item mb-2">
+        <a class="nav-link link-dark ps-0" href="#"><span class="material-symbols-rounded me-3 align-middle">
+          insert_chart
+          </span>Dashboard</a>
+      </li>
+      <li class="nav-item  mb-2">
+        <a class="nav-link link-dark ps-0" href="#"><span class="material-symbols-rounded me-3 align-middle">
+          forum
+          </span>Question</a>
+      </li>
+      <li class="nav-item  mb-2">
+        <a class="nav-link link-dark ps-0 active text-success" aria-current="page"  href="#"><span class="material-symbols-rounded me-3 align-middle">
+          assignment
+          </span>Assignment</a>
+      </li>
+      <li class="nav-item  mb-2">
+        <a class="nav-link link-dark ps-0" href="#"><span class="material-symbols-rounded me-3 align-middle">
+          video_library
+          </span>Course</a>
+      </li>
+      <li class="nav-item  mb-2">
+        <a class="nav-link link-dark ps-0" href="#"><span class="material-symbols-rounded me-3 align-middle">
+          group
+          </span>Admin</a>
+      </li>
+      <li class="nav-item  mb-2">
+        <a class="nav-link link-dark ps-0" href="#"><span class="material-symbols-rounded me-3 align-middle">
+          settings
+          </span>Settings</a>
+      </li>
+    </ul>
+
+    <div class="d-flex align-items-center mt-auto">
+      <img src="/assets/images/andychen-sm.jpeg" alt="andychen_photo" class="rounded-circle photo me-3">
+        <ul class="list-unstyled mb-0">
+          <li class="fw-bold mb-1">Andy Chen</li>
+          <li class="fz-14 text-muted">andy0401@mail.com</li>
+        </ul>
+    </div>
+    </nav>
+  </aside>
+
+  
 <div class="container-fluid">
   <div class="wrap">
   <header class="d-flex justify-content-between align-items-center mb-44">
@@ -167,3 +228,11 @@ current: index
 
  </div>
 </div>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
